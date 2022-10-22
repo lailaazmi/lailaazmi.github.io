@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Official Cydia Repo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+						<h1>Tutorial #1</h1>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+<h1>Making a GitHub Repo</h1>
+										</header>
+
+<p align="left" style="font-size:15px">Step 1: <b>GitHub Account</b></p>
+<p align="left" style="font-size:10px">Go to <a href="http://www.github.com/">GitHub</a> and Login or Sign-Up</p>
+
+<br >
+
+<p align="left" style="font-size:15px">Step 2: <b>New GitHub Repo</b></p>
+<p align="left" style="font-size:10px">Create a new repo with the same name as your account name,</p><p align="left" style="font-size:8px"><code>Account(lailaazmi)</code> <code>Repo(lailaazmi)</code></p>
+
+<br >
+
+<p align="left" style="font-size:15px">Step 3: <b>Cloning the Repo</b></p>
+<p align="left" style="font-size:10px">Open up MTerminal or your favourite terminal prompt and login as root:</p>
+<p align="left" style="font-size:8px"><code>su</code><br ><br ><code>alpine</code><br ><br ><code>git clone https://github.com/username/username.github.io.git</code><br ><br ></p>
+
+<br >
+
+<p align="left" style="font-size:15px">Step 4: <b>Installing The Files</b></p>
+<p align="left" style="font-size:10px">Go to <a href="https://www.dropbox.com/s/ctrbrjsnl60iq2x/Template-Lailaazmi.zip?dl=0">Dropbox</a> and download the files, after they have downloaded, copy them into /var/mobile/username.github.io</p>
+
+<br >
+
+<p align="left" style="font-size:15px">Step 5: <b>Editing The Files</b></p>
+<p align="left" style="font-size:10px">Open up "Packages", "Release" and "index.html" and edit to your preference. Inside of index.html you should see a part with ((CHANGE TO YOUR REPO)), just use the same repo as you used prior, ie; username.github.io(remove brackets)</p>
+
+<br >
+
+<p align="left" style="font-size:15px">Step 6: <b>Add Tweak Debian</b></p>
+<p align="left" style="font-size:10px">Adding the debian is simply placing your tweak debian(.deb) into the debs folder, <br ><br >WARNING: Make sure you edit the .deb name to be the same as "Filename" inside of Packages</p>
+
+<br >
+
+<p align="left" style="font-size:15px">Step 7: <b>Compress and Compile</b></p>
+<p align="left" style="font-size:10px">Open or go back to your terminal prompt and <b>cd</b> back into your /var/mobile/username.github.io folder.<br ><br ><p align="left" style="font-size:8px"><code>bzip2 -z Packages</code><br ><br ><code>git add --all</code><br ><br ><code>git commit -m "laila"</code><br ><br ><code>git push</code><br ><p style="font-size:9px" align="left"><b>Fill in all the details(username and password).. &nbsp;&nbsp; Done!</b></p></p>
+
+<br >
+
+<p align="left" style="font-size:15px">Step 8: <b>Connect GitHub Pages</b></p>
+<p align="left" style="font-size:10px">Now we have all the files for our repo, we will want to activate our website now ready for Cydia, to do this, we will want to go to GitHub again and open our created repo, you will see an option called "Settings" in the top right..ish, click on that and then scroll down until you see "GitHub Pages", this will activate our website. Click the "None" tab and select "master branch" and then press <b>Save</b>. That's it!<br ><br >We have now created a fully working repo using GitHub Pages. Click your site link and you will see the website load(the link should be http://github.com/username.github.io). Click the + icon and you will be directed to Cydia, press Install Source and watch as your repo is added to Cydia.<br ><br >ENJOY!<br ><br ><br ></p>
+
+										
+</section>
+
+<footer id="footer">
+</footer>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

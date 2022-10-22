@@ -1,0 +1,13 @@
+Origin: Lailaazmi ࿊
+Label: Lailaazmi ࿊
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: "Harapan Pemuda Indonesia"
+
+SHA256:
+ e0d307481062b7f83e295fe55d4730ffd30e3eee4fa682ed2c1a28ba692575d8 574 Packages.bz2
+
+5af910b73b16ab7dc5481d268d0896d00447eab96911da8aa82a4b948f917d98 572 Packages.xz

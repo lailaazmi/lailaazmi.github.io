@@ -1,0 +1,50 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{263, 148}",
+  "itemCornerRadius": 10,
+  "banners": [
+    {
+       "url":"https://azmilaila.github.io/laila/com.azmilaila.bazaart/banner.png",
+       "title":"Bazaart® Vip",
+       "package":"com.azmilaila.bazaart",
+       "hideShadow":false
+    },
+    {
+       "url":"https://i.ytimg.com/vi/98flVeX1odM/maxresdefault.jpg",
+       "title":"DU Recorder Vip",
+       "package":"com.azmilaila.durecorder",
+       "hideShadow":false
+    },
+    {
+      "url": "https://9to5mac.com/wp-content/uploads/sites/6/2019/08/guardian-firewall-vpn-ios-app.png?w=1600",
+      "title": "Guardian Firewall",
+      "package": "com.azmilaila.guardian",
+      "hideShadow": false
+    },
+    {
+      "url": "https://azmilaila.github.io/laila/com.azmilaila.jooxpremium/banner.png",
+      "title": "Joox® VIP",
+      "package": "com.azmilaila.jooxpremium",
+      "hideShadow": false
+    },
+    {
+      "url": "https://azmilaila.github.io/laila/com.azmilaila.focos/screenshots/1.PNG",
+      "title": "Focos Vip",
+      "package": "com.azmilaia.focos",
+      "hideShadow": false
+    },
+      {
+         "url":"https://azmilaila.github.io/laila/com.azmilaila.enlightpixaloop/screenshots/1.PNG",
+         "title":"Enlight Pixaloop Vip",
+         "package":"com.azmilaila.enlightpixaloop",
+         "hideShadow":false
+      },
+
+        {
+           "url":"https://azmilaila.github.io/laila/com.azmilaila.twitterrific/banner.png",
+           "title":"Twitterrific 6",
+           "package":"com.azmilaila.twitterrific",
+           "hideShadow":false
+        },
+  ]
+}
